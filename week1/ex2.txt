@@ -1,0 +1,7 @@
+    1  mkdir ~/week1
+    2  cd ~/week1
+    3  ls /usr/bin | grep gcc | sort -r > ex1.txt
+    4  whoami
+    5  hostname
+    6  man whoami
+    7  history > ex2.txt
