@@ -1,0 +1,1 @@
+Physical adress is hardware adress in physical memory, but virtual memory is address that processor know. Virtual address may be as physical memory and may be different(should be mapped into physical address).

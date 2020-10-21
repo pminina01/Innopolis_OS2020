@@ -1,0 +1,1 @@
+Pages: 8KB=2^13 bytes. So, at least 13 lower bits would specify the byte offset, then 16-13 = 3 bits for page (2^3 = 8). Thefore, in single-level linear page table may be 8 entries.) 

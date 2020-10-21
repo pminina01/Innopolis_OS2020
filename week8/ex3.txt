@@ -1,0 +1,19 @@
+top - 10:36:10 up 12:41,  0 users,  load average: 2.07, 2.13, 1.95
+Tasks:   7 total,   1 running,   5 sleeping,   1 stopped,   0 zombie
+%Cpu(s):  8.6 us,  4.3 sy,  2.0 ni, 84.3 id,  0.0 wa,  0.0 hi,  0.8 si,  0.0 st
+KiB Mem : 26694636 total,  2215368 free,  4628616 used, 19850652 buff/cache
+top - 10:37:03 up 12:42,  0 users,  load average: 1.53, 2.00, 1.92
+Tasks:   8 total,   1 running,   5 sleeping,   2 stopped,   0 zombie
+%Cpu(s):  7.6 us,  3.3 sy,  1.4 ni, 87.1 id,  0.2 wa,  0.0 hi,  0.5 si,  0.0 st
+KiB Mem : 26694636 total,  2140872 free,  4686296 used, 19867468 buff/cache
+KiB Swap:        0 total,        0 free,        0 used. 19959512 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND                                                                                       
+      7 user      20   0  924476  80916  33040 S   0.3  0.3   0:26.31 node                                                                                          
+      1 user      20   0    4516    736    672 S   0.0  0.0   0:00.13 tini                                                                                          
+      6 user      20   0    4624    924    856 S   0.0  0.0   0:00.00 sh                                                                                            
+     19 user      20   0   72296   5740   5008 S   0.0  0.0   0:00.02 sshd                                                                                          
+    338 user      20   0   22240   5816   3340 S   0.0  0.0   0:00.24 bash                                                                                          
+   1101 user      20   0   22520   4000   2656 T   0.0  0.0   0:00.03 nano                                                                                          
+   1444 user      20   0   40444   3412   2960 T   0.0  0.0   0:00.01 top                                                                                           
+   1455 user      20   0   40448   3376   2928 R   0.0  0.0   0:00.01 top   
