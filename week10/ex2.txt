@@ -1,0 +1,18 @@
+~$ link ~/week1/file.txt ~/week10/_ex2.txt
+
+~$ ls -i ~/week10/_ex2.txt
+265 /home/user/week10/_ex2.txt
+
+~$ ls -i ~/week1/file.txt
+265 /home/user/week1/file.txt
+
+~$ find . -inum 265
+./week1/file.txt
+./week10/_ex2.txt
+
+~$ find . -inum 265 > ~/week1/file.txt
+
+~$ find . -inum 265 -exec rm {} \;
+
+~$ find . -inum 265
+~$ 

@@ -1,0 +1,7 @@
+-rw-r--r-- 1 user user 0 Oct 21 16:07 _ex3.txt
+-rwx---rwx 1 user user 0 Oct 21 16:07 _ex3.txt
+-rwxrwxrwx 1 user user 0 Oct 21 16:07 _ex3.txt
+
+660 r and w only for user and group 
+775 r and e for everyone, w only for user and group
+777 r,w and x for everyone
