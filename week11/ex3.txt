@@ -1,0 +1,11 @@
+1st program output:
+Hello
+Hello
+
+2nd program output:
+Hello
+
+In 1st case print has no newline, fork() copy content of buffer, and then
+both parent and child processes print "Hello".
+
+In 2nd case we print buffer before fork().
